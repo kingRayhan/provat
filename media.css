@@ -1,0 +1,54 @@
+@media all and (max-width: 778px)  {
+	
+
+		
+}
+@media all and (max-width: 600px){
+	.area-title-border-both::before, .area-title-border-both::after {
+	    position: absolute;
+	    content: "";
+	    background: #ddd;
+	    height: 0;
+	    width: 0;
+	    top: 0;
+	}
+	.feat-icon {
+		font-size: 35px;
+		float: none;
+		margin-right: 0;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.feat-sub-h {
+	    font-size: 25px;
+	    float: none;
+	    width: 100%;
+	    line-height: 0px;
+	    font-weight: bold;
+	    text-align: center;
+	}
+	.area-title-border-both {
+	    font-size: 45px;
+	}
+
+	.pricing-tables .plan.featured {
+	    -webkit-transform: none;
+	    -ms-transform: none;
+	    transform: none;
+	}
+	
+	.portfolio-filter ul li {
+	    width: 85%;
+	    float: left;
+	}
+
+
+	.cbp-qtrotator .cbp-qtcontent{
+		text-align: center;
+	}
+	.cbp-qtrotator .cbp-qtcontent img {
+		float: none;
+		width: 65%;
+	}
+}

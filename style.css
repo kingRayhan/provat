@@ -1,0 +1,930 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+	/* Template Name: NRGevent*/
+	/* Version: 1.0 Initial Release*/
+	/* Build Date: 23-09-2015*/
+	/* Author: Unbranded*/
+	/* Website: http://moonart.net.ua/site/ 
+	/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/*
+	 01 - Typography 
+		1.1 - web fonts
+		1.2 - Helping css
+	 02 - ScrollUp Plugin 
+	 03 - Header Area
+		3.1 - Main Menu
+		3.2 - Call To Action
+		3.3 - Project We Done
+		3.4 - Go To Bottom Arrow
+	 04 - About Me Area
+	 05 - Services Area 
+		5.1 - Services Top area
+		5.2 - Services Bottom area
+	 06 - Testimonial Area 
+	 07 - Pricing Area 
+	 08 - Video Intoduce Area
+	 09 - Professional Skill Area
+	 10 - Portfolio Gallery Area
+	 11 - Team Area 
+	 12 - Contact Form Area 
+	 13 - Footer Area 
+		12.1 - 
+	 */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - Typography */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 1.1 web fonts */
+@font-face {
+	font-family: "Gothamrounded Bold";
+    src: url('fonts/GothamRounded-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/GothamRounded-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/GothamRounded-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: "Rounded Light Regular";
+    /* font-family: 'GothamRoundedLight'; */
+    src: url('fonts/GothamRounded-Light.eot'); /* IE9 Compat Modes */
+    src: url('fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/GothamRounded-Light.woff') format('woff'), /* Modern Browsers */
+         url('fonts/GothamRounded-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/GothamRounded-Light.svg#GothamRounded-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: "Yellowtail-Regular";
+    src: url('fonts/Yellowtail-Regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Yellowtail-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Yellowtail-Regular-webfont.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Yellowtail-Regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Yellowtail-Regular-webfont.svg#Yellowtail-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'CaeciliaLTStdLight';
+    src: url('fonts/CaeciliaLTStd-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/CaeciliaLTStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/CaeciliaLTStd-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/CaeciliaLTStd-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/CaeciliaLTStd-Bold.svg#CaeciliaLTStd-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'CaeciliaLTStdRoman';
+    src: url('fonts/CaeciliaLTStd-56Italic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/CaeciliaLTStd-56Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/CaeciliaLTStd-56Italic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/CaeciliaLTStd-56Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/CaeciliaLTStd-56Italic.svg#CaeciliaLTStd-56Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+body{
+	color: #4E5765;
+	font-family: "Rounded Light Regular";
+	line-height:1.3em
+}
+a{
+	color: #44B38A;
+}
+a:hover{
+	text-decoration: underline;
+}	
+a:focus{
+	outline:none;
+	text-decoration:none
+}
+::selection{
+	background: #1FAB5A;
+	color:#FF4B5A
+}	
+::-o-selection{
+	background: #1FAB5A;
+	color:#FF4B5A
+}
+::-webkit-selection{
+	background: #1FAB5A;
+	color:#FF4B5A
+}	
+::-moz-selection{
+	background: #1FAB5A;
+	color:#FF4B5A
+}	
+::-ms-selection{
+	background: #1FAB5A;
+	color:#FF4B5A
+}
+h2 {
+  font-family: "Gothamrounded Bold";
+  font-size: 35px;
+}
+h5{
+  font-size: 18px;
+
+}
+p {
+  font-size: 18px;
+  line-height:1.5em;
+}
+img{
+	max-width:100%;
+	height:auto
+}
+/* 1.2 Helping css */
+.clear{clear:both;overflow:hidden;}
+.float-left{float:left}
+.float-none{float:none}
+.float-right{float:right}
+.margin-auto{margin:auto}
+.text-center{text-align:center}
+.text-uppercase{text-transform:uppercase}
+.hidden{display:none}
+.display-block{display:block}
+.area-title{
+    width: 70%;
+    margin: auto;
+    padding: 35px 0;
+	color:#5bc0de;  
+}
+.area-title-border-both{
+    position: relative;
+    font-family: "Rounded Light Regular";
+}
+.area-title-border-both::before ,
+.area-title-border-both::after{
+    position: absolute;
+    content: "";
+    background: #ddd;
+    height: 6px;
+    width: 30%;
+    top: 42%;
+}
+.area-title-border-both::before {
+	left: 0;
+}
+.area-title-border-both::after {
+	right: 0;
+}
+section{
+	padding: 35px 0;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 02 - ScrollUp Plugin */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(85,85,85,.5);
+    color: #fff;
+}
+#scrollUp:before {
+	content:"\f062";
+	font-family:FontAwesome;
+}
+#scrollUp:hover{
+	text-decoration:none;
+	    background-color: rgba(85,85,85,1);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - Header Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*.main-menu-wrapper{
+    background-color: transparent;
+}
+
+.main-menu-style-1{
+    position: absolute;
+    top: 20px;
+    z-index: 9999;
+    display: block;
+}
+.main-menu-style-1 ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: center;
+}
+.main-menu-style-1 ul li{
+    display: inline-block;
+}
+.main-menu-style-1 ul li a{
+    display: block;
+}
+.main-menu-style-1 ul li a::hover{}*/
+
+.full-screen-header{
+    background-image: url(images/mountains-sunset-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    position:relative;
+    height: 100vh;
+}
+.full-screen-header::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    left: 0;
+
+}
+
+/* 3.2 - Call To Action */
+.call-to-action {
+    margin-top: 8vh;
+}
+.call-to-action h2 {
+    font-size: 9vh;
+}
+
+.call-to-action .theme-name {
+    font-size: 15vh !important;
+}
+
+.call-to-action p {
+    font-size: 25px;
+}
+.call-to-action-btn {
+    margin: 40px 0;
+}
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+/*	font-size: 8em;*/
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
+}
+
+/* Kumya */
+.link--kumya {
+	font-family: 'Syncopate', sans-serif;
+/*	font-size: 6.5em;*/
+	overflow: hidden;
+	padding: 10px 10px 0;
+	line-height: 1;
+	color: #999;
+
+}
+
+.link--kumya:hover {
+	background: #5BC0DE;
+	text-decoration: none;
+}
+
+.link--kumya::after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background: #242424;
+	-webkit-transform: translate3d(101%,0,0);
+	transform: translate3d(101%,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kumya:hover::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.link--kumya span {
+	display: block;
+	position: relative;
+    color: #5BC0DE;
+}
+
+.link--kumya span::before {
+	content: attr(data-letters);
+	position: absolute;
+	color: #fff;
+	left: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0%;
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kumya:hover span::before {
+	width: 100%;
+}
+.button {
+	float: none;
+	min-width: 150px;
+	max-width: 250px;
+	display: inline-block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.call-to-action-btn:hover{
+	text-decoration:none;
+}
+/* 3.4 - Go To Bottom Arrow */
+.go-to-bottom-arrow {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    width: 60px;
+    margin-left: -30px;
+}
+.go-to-bottom-arrow a{
+	color: #fff;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - Project We done Section */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.project-we-done {
+    margin: 35px 0;
+}
+.single-done-project {
+    min-height: 200px;
+    
+}
+.single-done-project:hover .project-icon{
+    font-size: 85px;
+    color: #5BC0DE;
+}
+.project-icon {
+    font-size: 54px;
+    margin: 15px 0;
+    transition:200ms;
+}
+.project-name{
+	font-size: 22px;
+}
+.project-completed{
+	font-size: 35px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 04 - About Me Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.about-me-desc {
+    margin-top: 40px;
+}
+.about-me-desc p{
+    margin-bottom: 35px;
+}
+.about-me-btn-group{
+	text-align: center;
+}
+.about-me-btn-group a{
+	color:#fff;
+}
+.about-me-btn-group a:hover{
+	text-decoration:none;
+}
+.about-me-btn-group a.contact-btn{}
+.about-me-btn-group a.download-cv{}
+.about-me-title {
+    font-size: 35px;
+}
+.about-me p {
+    font-size: 22px;
+    line-height: 25px;
+}
+.provat-slider-wrap {
+    position: relative;
+    text-align: center;
+}
+.provat-slider-wrap img{
+	width: 100%; 
+}
+
+.provat-slider-wrap .owl-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.provat-slider-wrap .owl-page {
+    display: block !important;
+}
+.provat-slider-wrap .owl-page.active span{
+    width: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+
+	opacity: 1;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0;
+	background: #000;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 05 - Services Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 5.1 - Services Top area */
+.services{
+	background:url(images/grey.png) repeat;
+}
+
+/* 5.2 - Services Bottom area */
+.services-details {
+
+}
+.single-feat-item{
+	padding: 20px 0;
+}
+.feat-icon {
+    font-size: 35px;
+    float: left;
+    margin-right: 20px;
+    width: 10%;
+}
+.features-text {
+    overflow: hidden;
+    margin-bottom: 19px;
+}
+.feat-sub-h {
+    font-size: 25px;
+    float: left;
+    width: 65%;
+    line-height: 0px;
+    font-weight: bold;
+}
+.kp-feat i {
+    margin: 0 5px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 06 - Testimonial Slider */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.cbp-qtrotator {
+	position: relative;
+	/* margin: 3em auto 5em auto; */
+	/* max-width: 800px; */
+	/* width: 100%; */
+	min-height: 291px;
+}
+
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 200px;
+	border-top: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	padding: 2em 0;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	width: 100%;
+}
+
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;
+}
+
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+
+.cbp-qtprogress {
+	position: absolute;
+	background: #47a3da;
+	height: 1px;
+	width: 0%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-qtrotator blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-qtrotator blockquote p {
+	font-size: 2em;
+	color: #888;
+	font-weight: 300;
+	margin: 0.4em 0 1em;
+	line-height: 39px;
+	padding-left: 21px;
+}
+
+.cbp-qtrotator blockquote footer {
+	font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.cbp-qtrotator blockquote footer:before {
+	content: '― ';
+}
+
+.cbp-qtrotator .cbp-qtcontent img {
+	float: right;
+	margin-left: 3em;
+}
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) { 
+
+	.cbp-qtrotator {
+		font-size: 70%;
+	}
+
+	.cbp-qtrotator img {
+		width: 80px;
+	}
+
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 07 - Pricing Tables */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.pricing{
+	background:#ecf0f1;
+}
+.pricing-tables {
+    overflow: hidden;
+    padding: 5% 0;
+}
+.pricing-tables .plan {
+  border-radius: 6px;
+  list-style: none;
+  padding: 0 0 20px;
+  margin: 0 0 15px;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.pricing-tables .plan li {
+  padding: 10px 15px;
+  color: #ccc;
+  border-top: 1px solid #f5f5f5;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.pricing-tables .plan li.plan-price {
+  border-top: 0;
+}
+.pricing-tables .plan li.plan-name {
+  border-radius: 6px 6px 0 0;
+  padding: 15px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  background: #e74c3c;
+  margin-bottom: 30px;
+  border-top: 0;
+}
+.pricing-tables .plan li > strong {
+  color: #e74c3c;
+}
+.pricing-tables .plan li.plan-action {
+  margin-top: 10px;
+  border-top: 0;
+}
+.pricing-tables .plan.featured {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.pricing-tables .plan.featured li.plan-name {
+  background: #000;
+}
+.pricing-tables .plan.featured:hover li.plan-name {
+  background: #c0392b;
+}
+.pricing-tables .plan:hover li.plan-name {
+  background: #000;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 08 - Video Background Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.video-bg-area{
+    background-image:url(images/181903151000201.jpg);
+}
+.parallax-bg{
+	background-size:cover;
+	background-attachment:fixed;
+	color: #fff;
+}
+.video-icon{
+    font-size: 85px;
+    text-align: center;
+	color:#fff;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 09 - Professional Skill Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.professional-skills{
+	background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/satinweave.png) repeat; 
+	padding-bottom:95px;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Team Members
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.member-content .social-content li a{
+    display:inline-block;
+    padding:0;
+    min-width:40px;
+    height:40px;
+    font-size:21px;
+    line-height:40px;
+    color:#5cc9df;
+    border-radius:5px;
+    box-shadow:0 3px 0 0 transparent;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.member-content .details {
+    margin:20px 0 0 20px;
+    position:relative;
+    padding:30px;
+    padding-left:100px;
+    background:#f5f5f5;
+    border-radius:10px;
+    box-shadow:5px 5px 0 rgba(0,0,0,0.08);
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.member-content {
+    margin-bottom:30px;
+}
+
+.member-thumb{
+    text-align:center;
+}
+
+.member-thumb h4{
+    font-size:21px;
+    margin:10px 0;
+}
+
+.member-thumb .title{
+    font-size:18px;
+    margin:10px 0;
+    color:#5CC9DF;
+}
+
+
+
+.member-content:hover .details {
+    background:#5bc0de;
+    color:#fff;
+}
+
+.member-content.right .details {
+    margin:20px 20px 0 0;
+    box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
+}
+
+.member-content .details:after {
+    display:block;
+    content:"";
+    position:absolute;
+    left:-18px;
+    top:30px;
+    width:0px;
+    height:0px;
+    background:transparent;
+    border:20px solid transparent;
+    border-left:20px solid #f5f5f5;
+    box-shadow:-3px 0 0 rgba(0,0,0,0.08);
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    -webkit-transition:border-left-color .3s ease-out;
+    transition:border-left-color .3s ease-out;
+}
+
+.member-content.right .details:after {
+    position:absolute;
+    left:auto;
+    right:-17px;
+    border-left:20px solid transparent;
+    border-right:20px solid #f5f5f5;
+    box-shadow:3px 0 0 0 rgba(0,0,0,0.08);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+    -webkit-transition:border-right-color .3s ease-out;
+    transition:border-right-color .3s ease-out;
+}
+
+.member-content:hover .details:after {
+    border-left-color:#5CC9DF;
+}
+
+.member-content.right:hover .details:after {
+    border-left-color:transparent;
+    border-right-color:#5CC9DF;
+}
+
+.member-content .details:before {
+    display:block;
+    content:"\201D";
+    position:absolute;
+    left:20px;
+    top:50px;
+    font-size:120px;
+    font-weight:800;
+    line-height:60px;
+    font-family:Arial;
+    color:#5cc9df;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.member-content:hover .details:before {
+    color:#fff;
+}
+
+.member-content .social-content {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.member-content .social-content li {
+    display:inline;
+    text-align:center;
+    margin:0 2px;
+}
+
+.member-content:hover .social-content li a {
+    color:#fff;
+}
+
+.member-content .social-content li a:hover{
+    background:#fff;
+    color:#5cc9df;
+    box-shadow:0 3px 0 0 rgba(0,0,0,0.05);
+}
+                    
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 10 - Portfolio Gallery Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.portfolio-filter ul {
+    text-align: center;
+    list-style: none;
+}
+
+.portfolio-filter ul li {
+    display: inline;
+    padding: 11px 31px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    cursor: pointer;
+}
+.portfolio-filter li.active {
+    background: #4E5765;
+    color:#fff;
+}
+.mix{
+	display:none;
+}
+.pp_description{font-size: 23px;font-weight:700;line-height:14px;margin:5px 50px 5px 0;font-family: "Gothamrounded Bold";}
+div.light_square .pp_close{
+    background:url(https://cdn3.iconfinder.com/data/icons/webdesigncreative/free_icons_128x128_png/Cross-lines.png) no-repeat;
+    background-size: 35px 31px;
+    height:35px;
+    width:35px;
+    border: 1px solid #4E5765;
+}
+.da-gallery li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 8px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-gallery li a,
+.gallery li a img {
+	display: block;
+	position: relative;
+}
+.da-gallery li a {
+	overflow: hidden;
+}
+.da-gallery li a div {
+	position: absolute;
+	background: rgba(75,75,75,0.7);
+	width: 100%;
+	height: 100%;
+}
+.da-gallery li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 40px 20px 20px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 11 - Contact Form Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.team-area{}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 12 - Contact Form Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.contact-form-bg{
+	background: url(images/contact-area.jpg) no-repeat 0 0 scroll;
+	background-size:cover;
+	margin-bottom:0;
+}
+.contact-form{
+    margin: 15px 0;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+  border-radius: 0;
+  font-size: 25px;
+  height: 66px;
+  padding: 10px;
+  resize: none;
+}
+.contact-form textarea{
+    resize: none;   
+    height: 200px;
+}
+input[type="submit"] {
+    width: 150px;
+    height: 53px;
+    border-radius: 0;
+    font-size: 25px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 13 - Footer Area */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 13.1 - Section Contact Info */
+.section-contact-info {
+    background: #000;
+    color: #fff;
+	margin-top:0;
+}
+
+.info-icon {
+    display: inline-block;
+    font-size: 45px;
+    margin: 10px;
+}
+.fa-mobile {
+    font-size: 61px;
+}
+
+.info-desc {
+    display: inline-block;
+}

@@ -1,0 +1,14 @@
+Header
+Professional skill -DONE
+About me - DONE
+Service box
+service description - DONE
+Testimonial Slider - DONE
+Pricing - DONE
+Video BG - DONE
+Professional skill - DONE
+Portfolio - DONE
+Team - DONE
+Contact - DONE
+google map - DONE
+Footer

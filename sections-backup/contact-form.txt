@@ -1,0 +1,42 @@
+<section class="provat-section-id-4547875245 contact-form-bg">
+	<div class="container">
+		<div class="area-title text-center">
+			<h3>INTERESTED IN WORKING WITH ME?</h3>
+			<h2>REACH OUT TODAY</h2>
+			<p>Sequi vero dolore, mollitia. Placeat, sapiente explicabo accusamus
+			officia beatae consequatur, cupiditate ex provident natus unde nam.</p>
+		</div>
+		<div class="contact-form">
+		    <div class="row">
+		        <form class="contact-inner wow fadeInDown animated animated" style="visibility: visible;">
+		            <div class="col-md-4 col-xs-12 col-sm-4">
+		                <div class="form-group">
+		                    <input class="form-control" placeholder="your name" type="text">
+		                </div>
+		            </div>
+		            <div class="col-md-4 col-xs-12 col-sm-4">
+		                <div class="form-group">
+		                    <input class="form-control" placeholder="your email" type="email">
+		                </div>
+		            </div>
+		            <div class="col-md-4 col-xs-12 col-sm-4">
+		                <div class="form-group">
+		                    <input class="form-control" placeholder="subject" type="text">
+		                </div>
+		            </div>
+		            <div class="col-md-12 col-xs-12 col-sm-12">
+		                <div class="form-group">
+		                    <textarea class="form-control" cols="30" name="message" placeholder="message" rows="6"></textarea>
+		                </div>
+		            </div>
+
+		            <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+		                <input class="btn btn-default" type="submit" value="Send">
+		            </div>
+
+		        </form>
+		    </div><!-- .row -->
+		</div><!-- .contact-form -->
+		
+	</div>
+</section> 

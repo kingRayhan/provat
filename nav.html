@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu</title>
+	<script src="http:code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script>
+	/*	$(document).ready(function(){
+			$('.main-menu > ul > li').find('ul').slideUp();
+			$('.main-menu > ul > li').hover(function(){
+				$(this).find('ul').slideDown();
+			},function(){
+				$(this).find('ul').slideUp();
+			});
+
+		});*/
+	</script>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+	<style>
+		body{
+			margin: 0;
+			padding:0;
+			font-family: tahoma;
+			background-color: tomato;
+		}
+		
+		.mainmenu{
+			background-color: #34495e;
+		}
+		.mainmenu:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.mainmenu ul{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.mainmenu > ul > li{
+			float: left;
+			position: relative;
+		}
+		.mainmenu ul li a{
+			display: block;
+			color: #fff;
+			padding: 15px 20px;
+			text-decoration: none;
+		}
+		.mainmenu ul li:hover a{
+			background-color: #1abc9c;
+		}
+		
+		/* First Level */
+		.mainmenu ul ul{
+			position: absolute;
+			top: 100%;
+			left: 0;
+			min-width: 195px;
+		}
+		/* Second Level */
+		.mainmenu ul ul li{
+			border-bottom: 1px solid #ddd;
+			position: relative;
+		}
+		.mainmenu ul ul li
+		/* Third level */
+		.mainmenu ul ul  
+	</style>
+</head>
+<body>
+
+	<nav class="mainmenu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Product</a></li>
+			<li><a href="#">Submenu</i></a> 
+				<ul>
+					<li><a href="#">First Level</a></li>
+					<li><a href="#">First Level</a></li>
+					<li><a href="#">First Level</a>
+						<!-- <ul>
+							<li><a href="#">Second Level</a></li>
+							<li><a href="#">Second Level</a></li>
+							<li><a href="#">Second Level</a></li>
+							<li><a href="#">Second Level</a></li>
+							<li><a href="#">Second Level</a>
+								<ul>
+									<li><a href="#">Third Level</a></li>
+									<li><a href="#">Third Level</a></li>
+									<li><a href="#">Third Level</a></li>
+									<li><a href="#">Third Level</a></li>
+									<li><a href="#">Third Level</a></li>
+									<li><a href="#">Third Level</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Second Level</a></li>
+						</ul> -->
+					</li>
+					<li><a href="#">First Level</a></li>
+					<li><a href="#">First Level</a></li>
+					<li><a href="#">First Level</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Cotact us</a></li>
+			<li><a href="#">about</a></li>
+		</ul>
+	</nav>
+	
+</body>
+</html>

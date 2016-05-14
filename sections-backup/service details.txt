@@ -1,0 +1,105 @@
+		<div class="row">
+			<div class="services-details">
+				<!--Single service details start -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-feat-item">
+							<div class="features-text">
+								<span class="feat-icon">
+									<i class="fa fa-eye"></i>
+								</span>
+								<h3 class="feat-sub-h">psd design</h3>
+							</div>
+							<p>Exactly cultivate one to one customer service with robust ideas.
+							Professionally innovate resource leveling customer for state of the
+							art service.</p>
+							<a class="kp-feat" href="#">read more<i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				<!--Single service details end -->
+
+				<!--Single service details start -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-feat-item">
+							<div class="features-text">
+								<span class="feat-icon">
+									<i class="fa fa-eye"></i>
+								</span>
+								<h3 class="feat-sub-h">psd design</h3>
+							</div>
+							<p>Exactly cultivate one to one customer service with robust ideas.
+							Professionally innovate resource leveling customer for state of the
+							art service.</p>
+							<a class="kp-feat" href="#">read more<i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				<!--Single service details end -->
+
+				<!--Single service details start -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-feat-item">
+							<div class="features-text">
+								<span class="feat-icon">
+									<i class="fa fa-eye"></i>
+								</span>
+								<h3 class="feat-sub-h">psd design</h3>
+							</div>
+							<p>Exactly cultivate one to one customer service with robust ideas.
+							Professionally innovate resource leveling customer for state of the
+							art service.</p>
+							<a class="kp-feat" href="#">read more<i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				<!--Single service details end -->
+
+				<!--Single service details start -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-feat-item">
+							<div class="features-text">
+								<span class="feat-icon">
+									<i class="fa fa-eye"></i>
+								</span>
+								<h3 class="feat-sub-h">psd design</h3>
+							</div>
+							<p>Exactly cultivate one to one customer service with robust ideas.
+							Professionally innovate resource leveling customer for state of the
+							art service.</p>
+							<a class="kp-feat" href="#">read more<i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				<!--Single service details end -->
+
+				<!--Single service details start -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-feat-item">
+							<div class="features-text">
+								<span class="feat-icon">
+									<i class="fa fa-eye"></i>
+								</span>
+								<h3 class="feat-sub-h">psd design</h3>
+							</div>
+							<p>Exactly cultivate one to one customer service with robust ideas.
+							Professionally innovate resource leveling customer for state of the
+							art service.</p>
+							<a class="kp-feat" href="#">read more<i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				<!--Single service details end -->
+
+				<!--Single service details start -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="single-feat-item">
+							<div class="features-text">
+								<span class="feat-icon">
+									<i class="fa fa-eye"></i>
+								</span>
+								<h3 class="feat-sub-h">psd design</h3>
+							</div>
+							<p>Exactly cultivate one to one customer service with robust ideas.
+							Professionally innovate resource leveling customer for state of the
+							art service.</p>
+							<a class="kp-feat" href="#">read more<i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				<!--Single service details end -->
+			</div><!-- .services-details -->
+		</div><!-- .row -->

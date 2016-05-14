@@ -1,0 +1,37 @@
+<div class="row">
+	<div class="project-we-done text-center">
+		<h2 class="area-title-border-both">Project We Done</h2>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<!-- Single Project counter start -->
+			<div class="single-done-project">
+				<h4 class="project-name">Html Template</h4>
+				<p class="project-completed"><span class="counter-up">1,234</span></p>
+			</div>
+			<!-- Single Project counter end -->
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<!-- Single Project counter start -->
+			<div class="single-done-project">
+				<h4 class="project-name">Html Template</h4>
+				<p class="project-completed"><span class="counter-up">1,234</span></p>
+			</div>
+			<!-- Single Project counter end -->
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<!-- Single Project counter start -->
+			<div class="single-done-project">
+				<h4 class="project-name">Html Template</h4>
+				<p class="project-completed"><span class="counter-up">1,234</span></p>
+			</div>
+			<!-- Single Project counter end -->
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<!-- Single Project counter start -->
+			<div class="single-done-project">
+				<h4 class="project-name">Html Template</h4>
+				<p class="project-completed"><span class="counter-up">1,234</span></p>
+			</div>
+			<!-- Single Project counter end -->
+		</div>
+	</div><!-- .project-we-done -->
+</div><!-- .row -->

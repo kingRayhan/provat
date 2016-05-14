@@ -1,0 +1,28 @@
+<div class="row">
+			<div class="area-title text-center">
+				<h2>About Me</h2>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<h3 class="about-me-title">Hi ! I'm Rayhan</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+				nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+				volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+				ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+				autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+				consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+				accumsan et iusto odio dignissim qui blandit praesent luptatum</p>
+				<div class="about-me-btn-group">
+					<a class="button button--nuka contact-btn" href="#">Add to Cart &nbsp;&nbsp;<i class="fa fa-envelope-o download-cv"></i></a>
+					<a class="button button--nuka" href="#">DownLoad My CV &nbsp;&nbsp;<i class="fa fa-cloud-download"></i></a>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="provat-slider">
+					<div class="owl-carousel provat-slider-wrap">
+						<div><img alt="" src="images/hire_slide1.jpg"></div>
+						<div><img alt="" src="images/hire_slide2.jpg"></div>
+						<div><img alt="" src="images/hire_slide3.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- .row -->

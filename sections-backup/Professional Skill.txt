@@ -1,0 +1,12 @@
+		<div class="row">
+			<div class="col-md-12">
+				<div class="area-title text-center">
+					<h2>My Video Intoduce</h2>
+				</div>
+				<div class="video-icon">
+					<a class="video-lightbox" href="https://www.youtube.com/watch?v=VXY9woAJdRw">
+					    <i class="fa fa-play-circle-o"></i>
+					</a>
+				</div>
+			</div>
+		</div><!-- .row -->

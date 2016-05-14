@@ -1,0 +1,74 @@
+@media all and (max-width:768px){
+h2.logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.landing-area-texts {
+
+  width: 100%;
+}
+.promotional-video-texts {
+
+  width: 100%;
+}
+.mobile2 {
+  float: none;
+  margin-right: 0;
+}
+.mobile-desc-texts {
+  margin-top: 0;
+  width: 100%;
+}
+.quote-giver {
+text-align: center;
+}
+.quote-giver img {float: none;}
+.quote-giver-identy {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+.single-project{
+	width:48%;
+
+}
+}
+
+@media all and (max-width:600px){
+	.main-menu{display:none}
+	.slicknav_menu{display:block}
+.mobile {
+text-align: center;
+}
+.mobile img {
+	float: none;
+	margin-right: 0;
+}
+.imac-monitor {
+  text-align: center;
+}
+.promotional-video-area .green-btn {
+  background: none repeat scroll 0 0 #1fab5a;
+  margin-bottom: 36px;
+}
+.mobile2 {
+  float: none;
+  margin-right: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+.single-project{width:98%}
+
+.social-bookmarks ul{
+overflow:hidden;
+	text-align:center
+}
+.copyright-text {
+	float: none;
+	text-align:center;
+	overflow:hidden;
+	margin-top:50px
+}
+}

@@ -1,0 +1,48 @@
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8">
+				<div class="testimonial-wrap">
+					<div class="cbp-qtrotator">
+						<div class="cbp-qtcontent">
+							<img alt="img01" src="https://unsplash.it/150/150">
+							<blockquote>
+								<p>People eat meat and think they will become as strong as an ox,
+								forgetting that the ox eats grass.</p>
+								<footer>
+									Pino Caruso
+								</footer>
+							</blockquote>
+						</div>
+						<div class="cbp-qtcontent">
+							<img alt="img01" src="https://unsplash.it/150/150">
+							<blockquote>
+								<p>People eat meat and think they will become as strong as an ox,
+								forgetting that the ox eats grass.</p>
+								<footer>
+									Pino Caruso
+								</footer>
+							</blockquote>
+						</div>
+						<div class="cbp-qtcontent">
+							<img alt="img01" src="https://unsplash.it/150/150">
+							<blockquote>
+								<p>People eat meat and think they will become as strong as an ox,
+								forgetting that the ox eats grass.</p>
+								<footer>
+									Pino Caruso
+								</footer>
+							</blockquote>
+						</div>
+						<div class="cbp-qtcontent">
+							<img alt="img01" src="https://unsplash.it/150/150">
+							<blockquote>
+								<p>People eat meat and think they will become as strong as an ox,
+								forgetting that the ox eats grass.</p>
+								<footer>
+									Pino Caruso
+								</footer>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .row -->
